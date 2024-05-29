@@ -30,7 +30,12 @@ const Dashboard = () => {
       <div className=" w-full flex justify-between">
         {" "}
         {tiles.map((tile) => (
-          <Tile title={tile.title} value={tile.value} bgColor={tile.bgColor} />
+          <Tile
+            key={tile.title}
+            title={tile.title}
+            value={tile.value}
+            bgColor={tile.bgColor}
+          />
         ))}
       </div>
 

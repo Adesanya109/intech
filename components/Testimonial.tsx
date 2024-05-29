@@ -10,7 +10,7 @@ const Testimonial = () => {
       </h2>
       <div className="grid grid-cols-3 pl-14">
         {testimonials.map((t) => (
-          <Card description={t.description} name={t.name} />
+          <Card key={t.name} description={t.description} name={t.name} />
         ))}
       </div>
     </div>

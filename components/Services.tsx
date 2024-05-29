@@ -10,7 +10,11 @@ const Services = () => {
       </h2>
       <div className=" grid grid-cols-3 justify-between">
         {services.map((service) => (
-          <Card title={service.title} description={service.description} />
+          <Card
+            key={service.title}
+            title={service.title}
+            description={service.description}
+          />
         ))}
       </div>
     </div>
