@@ -9,15 +9,21 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        intechOrange: '#FF6a00',
-        softOrange: '#FFaa00',
-        intechPrimary: '#CB5757',
-        intechSecondary: '#EBDEDE',
-        intechTetiary: '#D9D9D9',
-
+        intechOrange: "#FF6a00",
+        softOrange: "#FFaa00",
+        intechPrimary: "#CB5757",
+        intechSecondary: "#EBDEDE",
+        intechTetiary: "#D9D9D9",
+        papayaOrange: {
+          light: "#FF8E00", // Light version of Papaya Orange
+          DEFAULT: "#FF8700", // Papaya Orange
+          dark: "#FF7700", // Darker version of Papaya Orange
+        },
       },
-      backgroundImage: theme => ({
-        'gradient-mclaren': 'linear-gradient(10deg, #FF6a00, #FFaa00)',
+      backgroundImage: (theme) => ({
+        "gradient-mclaren": "linear-gradient(10deg, #FF6a00, #FFaa00)",
+        "mclaren-gradient":
+          "linear-gradient(to right,#FF7700, #FF8700, #FF8E00 )",
       }),
     },
   },

@@ -31,3 +31,38 @@ export const claimsData = [
   { month: "May", value: 5.3 },
   { month: "June", value: 4.8 },
 ];
+
+export const services = [
+  {
+    title: "Comprehensive Coverage",
+    description:
+      "Protect your car against accidents, theft, and natural disasters.",
+  },
+  {
+    title: "Affordable Rates",
+    description:
+      "Get the best rates tailored to your driving habits and needs.",
+  },
+  {
+    title: "24/7 Support",
+    description:
+      "Our customer support is available around the clock to assist you.",
+  },
+];
+
+export const testimonials = [
+  {
+    description:
+      '"CarInsure saved me so much money and their service is fantastic!"',
+    name: "- Jane Doe",
+  },
+  {
+    description: '"I feel much safer knowing CarInsure has my back."',
+    name: "- John Smith",
+  },
+  {
+    description:
+      '"Highly recommend CarInsure for their excellent coverage and support."',
+    name: "- Sarah Lee",
+  },
+];
