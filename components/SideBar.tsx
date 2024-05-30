@@ -1,18 +1,6 @@
+import { sideBarItems } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
-
-const sideBarItems = [
-  { icon: "/dashboard-b.svg", title: "Dashboard", link: "/dashboard" },
-  { icon: "/profile-b.svg", title: "Profile", link: "/dashboard/profile" },
-  {
-    icon: "/calculator-b.svg",
-    title: "Calculator",
-    link: "/dashboard/calculator",
-  },
-  { icon: "/claims-b.svg", title: "Claims", link: "/" },
-  { icon: "/policies-b.svg", title: "Policies", link: "/" },
-  { icon: "/reports-b.svg", title: "Reports", link: "/dashboard/report" },
-];
 
 const SideBar = () => {
   return (

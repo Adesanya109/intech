@@ -1,3 +1,16 @@
+export const sideBarItems = [
+  { icon: "/dashboard-b.svg", title: "Dashboard", link: "/dashboard" },
+  { icon: "/profile-b.svg", title: "Profile", link: "/dashboard/profile" },
+  {
+    icon: "/calculator-b.svg",
+    title: "Calculator",
+    link: "/dashboard/calculator",
+  },
+  { icon: "/claims-b.svg", title: "Claims", link: "/dashboard/claims" },
+  { icon: "/policies-b.svg", title: "Policies", link: "/dashboard/policy" },
+  { icon: "/reports-b.svg", title: "Reports", link: "/dashboard/report" },
+];
+
 export const tiles = [
   { title: "Policies", value: 1025, bgColor: { backgroundColor: "#666666" } },
   { title: "Claims", value: 168, bgColor: { backgroundColor: "#FF9900" } },
